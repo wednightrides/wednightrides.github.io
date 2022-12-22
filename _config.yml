@@ -1,2 +1,28 @@
 domain: www.wednightrides.org
 url: https://www.wednightrides.org
+
+title: Wednesday Night Rides
+markdown: kramdown
+
+author:
+  name: Wednesday Night Rides
+  email: info@wednightrides.org
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+collections_dir: all_collections
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      permalink: /posts/:year/:month/:day/:title
+exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]

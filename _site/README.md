@@ -1,2 +1,0 @@
-# wednightrides.github.io
-website

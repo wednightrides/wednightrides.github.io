@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <main>
+      {% include header.html %}
+      <section class="article">
+        <div class="article-header">
+          <h2 class="article-title">{{page.title}}</h2>
+          <!-- <small class="date">{{page.date | date_to_string}}</small> -->
+          <!-- <div class="categories">
+            {% for c in page.categories %}
+            <a href="#!" class="category">{{c}}</a>
+            {% endfor %}
+          </div> -->
+          <strong>Start:</strong> {{page.start_location}}<br />
+          <strong>Time:</strong> Meet at {{page.start_time}}, roll at {{page.roll_time}}<br />
+          <strong>End:</strong> {{page.end_location}}<br />
+          <strong>Length:</strong> {{page.length_description}}<br />
+          <strong>Level of difficulty:</strong> {{page.difficulty_description}}<br />
+          <strong>Route:</strong> <a href="{{page.ride_with_gps_link}}" target="_blank">Ride with GPS</a><br />
+          <img src="{{site.baseurl}}/assets/images/{{page.route_image}}"/>
+        </div>
+        <div class="content">{{content}}</div>
+      </section>
+      {% include footer.html %}
+    </main>
+    {% include category-modal.html%}
+  </body>
+</html>
