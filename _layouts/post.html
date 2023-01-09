@@ -13,9 +13,9 @@
             <a href="#!" class="category">{{c}}</a>
             {% endfor %}
           </div> -->
-          <strong>Start:</strong> {{page.start_location}}<br />
+          <strong>Start:</strong> {% if page.start_location_link %}<a href="{{page.start_location_link}}" target="_blank">{% endif %}{{page.start_location}}{% if page.start_location_link %}</a>{% endif %}<br />
           <strong>Time:</strong> Meet at {{page.start_time}}, roll at {{page.roll_time}}<br />
-          <strong>End:</strong> {{page.end_location}}<br />
+          <strong>End:</strong> {% if page.end_location_link %}<a href="{{page.end_location_link}}" target="_blank">{% endif %}{{page.end_location}}{% if page.end_location_link %}</a>{% endif %}. Outdoor seating {% if page.end_location_indoor_seating_only == true %}<b>NOT</b>{% endif %} available.<br />
           <strong>Length:</strong> {{page.length_description}}<br />
           <strong>Level of difficulty:</strong> {{page.difficulty_description}}<br />
           <strong>Route:</strong> <a href="{{page.ride_with_gps_link}}" target="_blank">Ride with GPS</a><br />
