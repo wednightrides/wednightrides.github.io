@@ -18,7 +18,7 @@
           <strong>End:</strong> {% if page.end_location_link %}<a href="{{page.end_location_link}}" target="_blank">{% endif %}{{page.end_location}}{% if page.end_location_link %}</a>{% endif %}. Outdoor seating {% if page.end_location_indoor_seating_only == true %}<b>NOT</b>{% endif %} available.<br />
           <strong>Length:</strong> {{page.length_description}}<br />
           <strong>Level of difficulty:</strong> {{page.difficulty_description}}<br />
-          <strong>Route:</strong> <a href="{{page.ride_with_gps_link}}" target="_blank">Ride with GPS</a> {% if page.gpx_link %}<a href="{{page.gpx_link}}" target="_blank">.GPX download</a>{% endif %}<br />
+          <strong>Route:</strong> <a href="{{page.ride_with_gps_link}}" target="_blank">Ride with GPS</a> {% if page.gpx_link %}| <a href="{{page.gpx_link}}" target="_blank">.GPX download</a>{% endif %}<br />
           <img src="{{site.baseurl}}/assets/images/{{page.route_image}}"/>
         </div>
         <div class="content">{{content}}</div>
