@@ -53,8 +53,11 @@ Our Wednesday Night Rides ride style and culture is its own beautiful thing, but
 * Everyone rides at their own risk.
 * Every rider is responsible for themselves, their behavior, and their bike.
 * Keep your bike properly maintained. Here’s a link to a [basic bike check](https://bikepgh.org/2017/03/09/bike-video-abc-quick-check/).
-* Cycling has inherent risks, you could crash, fall down, or get hit by a car, and get hurt or even killed, though we try to minimize these risks.
+* Cycling has inherent risks--you could crash, fall down, or get hit by a car, and get hurt or even killed--though we try to minimize these risks.
 * If you have a health condition that could affect your ride or put you at additional risk, consider a) checking in with a doctor, b) letting us or a friend know, c) having a backup plan to get home if riding doesn’t work out.
-* We always plan to have a sweeper, but can’t rule out that you could get lost, or that your bike could break down and you’ll need to find another way home.
+* We always plan to have a sweeper, but can’t rule out that you could get lost, or that your bike could break down and you’ll need to find another way home.  
 
-&nbsp;
+&nbsp;  
+**Photo Disclaimer**
+
+We may take photos, videos, and audio during our rides. We reserve the right to post these on our website, social media accounts, and other channels without expressed permission of those included in the photos/videos. 
