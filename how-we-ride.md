@@ -61,3 +61,5 @@ Our Wednesday Night Rides ride style and culture is its own beautiful thing, but
 **Photo Disclaimer**
 
 We may take photos, videos, and audio during our rides. We reserve the right to post these on our website, social media accounts, and other channels without expressed permission of those included in the photos/videos. 
+
+&nbsp;  
