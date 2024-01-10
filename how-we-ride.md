@@ -6,6 +6,8 @@ permalink: /how-we-ride/
 
 Our Wednesday Night Rides ride style and culture is its own beautiful thing, but we’ve taken inspiration from the many group bike rides before us. In particular, the legendary [San Jose Bike Party (SJBP) “How We Ride”](https://www.google.com/url?q=https://www.sjbikeparty.org/how-we-ride/&sa=D&source=docs&ust=1671680518977370&usg=AOvVaw28Xm-C2gyWvnpITluYBRx2) guide offers a vision for how a large group of cyclists can have a great & safe ride through a city without causing havoc. Our “How We Ride” guide is based on SJBP’s, with a few modifications and additions:
 
+&nbsp;
+
 1. **Risks & Responsibilities:** You don’t need to sign a waiver to join a Wednesday Night Ride, because it’s an entirely voluntary & free group activity. But please keep in mind: 
 
    * Everyone rides at their own risk.
