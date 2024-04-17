@@ -35,7 +35,7 @@ Our Wednesday Night Rides ride style and culture is its own beautiful thing, but
 
 1. **Roll past conflict**
 
-    We are not a confrontational ride. There are occasionally times when we’ll briefly block traffic, to ensure everyone’s safety, but even then, we do it in a non-aggressive way. Do not swarm, block or trap cars, or engage with cars or people that are being assholes. Let it go, keep us all safe.
+    We are not a confrontational ride. Do not swarm, block or trap cars, or engage with cars or people that are being jerks. Let it go, keep us all safe.
 
 1. **Ride sober**
 
