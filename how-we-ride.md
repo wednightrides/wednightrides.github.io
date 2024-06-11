@@ -25,14 +25,6 @@ Our Wednesday Night Rides ride style and culture is its own beautiful thing, but
 
     Traffic lights are fundamentally different from stop signs. At a stop sign, everyone is supposed to stop (or in Philly, at least slow to a roll!). At a light, however, the traffic with a green is coming through at full speed. It’s dangerous to run lights and you generally shouldn’t do it. There are exceptions: if you can see far and clearly in both directions and no cars are in sight, you can proceed with caution. Use common sense and be safe. Hanging out at a red light is a great chance to talk with your friends, make new ones, or just look around at the city.
 
-1. **Stay to the right**
-
-    Unless there’s good reason to do otherwise, on most streets, take the right lane or the right side of the lane. Be predictable.
-
-1. **Pack your trash**
-
-    Self-explanatory. Don’t litter.
-
 1. **Roll past conflict**
 
     We are not a confrontational ride. Do not swarm, block or trap cars, or engage with cars or people that are being jerks. Let it go, keep us all safe.
@@ -41,17 +33,29 @@ Our Wednesday Night Rides ride style and culture is its own beautiful thing, but
 
     The expectation is that you arrive at the ride sober, because it’s a bad idea to ride drunk with dozens of other cyclists in close proximity. Yes, we often end at a bar or restaurant – if you drink, please drink responsibly. 
 
-1. **Be nice**
+1. **Offer help, but keep moving**
 
-    One of the best things about Wednesday Night Rides is the kind, friendly, feel-good feeling. Let’s keep it that way! Treat everyone with respect.
+    If you see a fellow rider in need of assistance of any kind (mechanical, flat tire, physical injury, etc), please do offer support. However, if it’s clear that person is already getting the support they need, we encourage you to keep moving. In many situations, having an unnecessarily large group of people standing around on the street, curb, or sidewalk can be a nuisance and potentially dangerous to other people on the street or sidewalk. 
 
 1. **Bring lights**
 
     After dark, PA law requires a front-facing white headlight and a rear red reflector or tail-light. This is a night ride, you need lights. They also look fantastic! Party lights for your wheels or frame lights are very worthwhile accessories – they make you much more visible and get positive reactions from passersby.
 
+1. **Be nice**
+
+    One of the best things about Wednesday Night Rides is the kind, friendly, feel-good feeling. Let’s keep it that way! Treat everyone with respect.
+
 1. **Yield to pedestrians**
 
     See also: be nice. Bikes should yield to pedestrians, don’t be a jerk.
+
+1. **Stay to the right**
+
+    Unless there’s good reason to do otherwise, on most streets, take the right lane or the right side of the lane. Be predictable.
+
+1. **Pack your trash**
+
+    Self-explanatory. Don’t litter.
 
 1. **Be prepared**
 
