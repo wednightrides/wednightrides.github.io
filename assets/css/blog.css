@@ -30,6 +30,9 @@ body {
   line-height: 2rem;
   background-color: var(--gray-5);
 }
+a:link, :visited, :hover, :active {
+  color:blue;
+}
 header {
   padding: 2rem 0 1rem 0;
 }
