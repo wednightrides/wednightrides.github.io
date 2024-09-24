@@ -23,8 +23,8 @@ A note on sizing: while the [Glowy Zoey product page](https://glowyzoey.com/prod
 &nbsp;
 
 Here's how this will go:
-Orders open - now! fill out the form below to place your order
-Orders close - Fri Sep 27 
+* Orders open - now! fill out the form below to place your order
+* Orders close - Fri Sep 27 
 
 &nbsp;
 
@@ -39,4 +39,6 @@ Pickup will be at the Oct 16 and Oct 30 rides, or by other arrangement if you ca
 &nbsp;
 
 [Google Form for collecting order information](https://docs.google.com/forms/d/e/1FAIpQLSfrCcQmhkZ50g4lzt9-pI9ianZx_xCMFny8055I22i9bJCdog/viewform)
+
+&nbsp;
 
