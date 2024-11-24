@@ -34,6 +34,10 @@ body {
   color: cyan;
   border-bottom: 1px solid cyan;
 }
+.article-header a {
+  color: cyan;
+  border-bottom: 1px solid cyan;
+}
 header {
   padding: 2rem 0 4rem 0;
 }
