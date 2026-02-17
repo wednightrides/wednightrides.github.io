@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-    <main>
-      {% include header.html %} 
-      <img src="{{site.baseurl}}/assets/images/wednightrides-group-2022-10-05.jpeg"/><br /><br />
-      {% include bio.html %}
-      <section class="articles">
-        <h1>Rides</h1>
-        {% for post in site.posts %}
-        <article class="article">
-          <h2 class="article-title">
-            <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-          </h2>
-          {{post.start_location}} to {{post.end_location}}
-          <!-- <small class="date">{{post.date | date_to_string}}</small> -->
-          <!-- <div class="categories">
+{% include head.html %}
+
+<body>
+  <main>
+    {% include header.html %}
+    <img src="{{site.baseurl}}/assets/images/wednightrides-group-2025.jpg" /><br /><br />
+    {% include bio.html %}
+    <section class="articles">
+      <h1>Rides</h1>
+      {% for post in site.posts %}
+      <article class="article">
+        <h2 class="article-title">
+          <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+        </h2>
+        {{post.start_location}} to {{post.end_location}}
+        <!-- <small class="date">{{post.date | date_to_string}}</small> -->
+        <!-- <div class="categories">
             {% for c in post.categories %}
             <a href="#!" data-base-url="{{site.baseurl}}" class="category"
               >{{c}}</a
             >
             {% endfor %}
           </div> -->
-        </article>
-        {%endfor%}
-      </section>
-      {% include footer.html %}
-    </main>
-    {% include category-modal.html%}
-  </body>
+      </article>
+      {%endfor%}
+    </section>
+    {% include footer.html %}
+  </main>
+  {% include category-modal.html%}
+</body>
+
 </html>
