@@ -6,12 +6,18 @@
   <main>
     {% include header.html %}
     <div class="main-image-container">
-      <img src="{{site.baseurl}}/assets/images/wednightrides-group-2025.jpg" />
+      <img src="{{site.baseurl}}/assets/images/wednightrides-group-2025.jpg"
+        alt="Wednesday Night Rides group photo 2025" loading="lazy" />
     </div>
     {% include bio.html %}
     <section class="articles">
       <h1>Rides</h1>
-      {% for post in site.posts %}
+      {% if paginator %}
+      {% assign posts = paginator.posts %}
+      {% else %}
+      {% assign posts = site.posts %}
+      {% endif %}
+      {% for post in posts %}
       <article class="article">
         <h2 class="article-title">
           <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
@@ -27,6 +33,22 @@
           </div> -->
       </article>
       {%endfor%}
+
+      {% if paginator.total_pages > 1 %}
+      <div class="pagination">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">&laquo; Prev</a>
+        {% else %}
+        <span class="previous disabled">&laquo; Prev</span>
+        {% endif %}
+        <span class="page_number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="next">Next &raquo;</a>
+        {% else %}
+        <span class="next disabled">Next &raquo;</span>
+        {% endif %}
+      </div>
+      {% endif %}
     </section>
     {% include footer.html %}
   </main>
