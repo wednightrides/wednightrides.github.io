@@ -1,16 +1,17 @@
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DL6KZGNFCN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL6KZGNFCN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-DL6KZGNFCN');
-</script>
+    gtag('config', 'G-DL6KZGNFCN');
+  </script>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {% seo %}
   <title>{{site.title}} | {{page.title}}</title>
   {% if page.layout == "post" %}
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/post.css" />
@@ -19,10 +20,9 @@
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/blog.css" />
   {%endif%}
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/common.css" />
-  <link rel="shortcut icon"
- href="{{site.baseurl}}/assets/icons/wnr.png">
-  <script src="{{site.baseurl}}/assets/js/categories.js"></script>
-  <script src="https://kit.fontawesome.com/061c516b88.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="{{site.baseurl}}/assets/icons/wnr.png">
+  <script defer src="{{site.baseurl}}/assets/js/categories.js"></script>
+  <script defer src="https://kit.fontawesome.com/061c516b88.js" crossorigin="anonymous"></script>
   <script>
     (function (s, e, n, d, er) {
       s['Sender'] = er;
@@ -30,7 +30,7 @@
         (s[er].q = s[er].q || []).push(arguments)
       }, s[er].l = 1 * new Date();
       var a = e.createElement(n),
-          m = e.getElementsByTagName(n)[0];
+        m = e.getElementsByTagName(n)[0];
       a.async = 1;
       a.src = d;
       m.parentNode.insertBefore(a, m)
