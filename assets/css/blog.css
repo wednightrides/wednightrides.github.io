@@ -42,15 +42,8 @@ a:active {
   transition: color 0.2s ease;
 }
 
-header {
-  padding: 2rem 0 2rem 0;
-}
-
-header .site-title {
-  font-size: 4rem;
-  font-weight: bolder;
-  line-height: 110%;
-  color: var(--white-1);
+.site-header {
+  padding: 2rem 0;
 }
 
 main {
