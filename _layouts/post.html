@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-    {% include nav.html %}
-    <main>
-      {% include header.html %}
-      <section class="article">
-        <div class="article-header">
-          <h2 class="article-title">{{page.title}}</h2>
-          <!-- <small class="date">{{page.date | date_to_string}}</small> -->
-          <!-- <div class="categories">
+{% include head.html %}
+
+<body>
+  {% include nav.html %}
+  <main>
+    {% include header.html %}
+    <section class="article">
+      <div class="article-header">
+        <h2 class="article-title">{{page.title}}</h2>
+        <!-- <small class="date">{{page.date | date_to_string}}</small> -->
+        <!-- <div class="categories">
             {% for c in page.categories %}
             <a href="#!" class="category">{{c}}</a>
             {% endfor %}
           </div> -->
-          <strong>Start:</strong> {% if page.start_location_link %}<a href="{{page.start_location_link}}" target="_blank">{% endif %}{{page.start_location}}{% if page.start_location_link %}</a>{% endif %}<br />
-          <strong>Time:</strong> Meet at {{page.start_time}}, roll at {{page.roll_time}}<br />
-          <strong>End:</strong> {% if page.end_location_link %}<a href="{{page.end_location_link}}" target="_blank">{% endif %}{{page.end_location}}{% if page.end_location_link %}</a>{% endif %}. Outdoor seating {% if page.end_location_indoor_seating_only == true %}<b>NOT</b>{% endif %} available.<br />
-          <strong>Length:</strong> {{page.length_description}}<br />
-          <strong>Level of difficulty:</strong> {{page.difficulty_description}}<br />
-          <strong>Route:</strong> <a href="{{page.ride_with_gps_link}}" target="_blank">Ride with GPS</a> {% if page.komoot_link %}| <a href="{{page.komoot_link}}" target="_blank">Komoot</a>{% endif %} {% if page.gpx_link %}| <a href="{{page.gpx_link}}" target="_blank">.GPX download</a>{% endif %}<br />
-          <img src="{{site.baseurl}}/assets/images/{{page.route_image}}"/>
-        </div>
-        <div class="content">{{content}}</div>
-      </section>
-      {% include footer.html %}
-    </main>
-    {% include category-modal.html%}
-  </body>
+        <strong>Start:</strong> {% if page.start_location_link %}<a href="{{page.start_location_link}}"
+          target="_blank">{% endif %}{{page.start_location}}{% if page.start_location_link %}</a>{% endif %}<br />
+        <strong>Time:</strong> Meet at {{page.start_time}}, roll at {{page.roll_time}}<br />
+        <strong>End:</strong> {% if page.end_location_link %}<a href="{{page.end_location_link}}" target="_blank">{%
+          endif %}{{page.end_location}}{% if page.end_location_link %}</a>{% endif %}. Outdoor seating {% if
+        page.end_location_indoor_seating_only == true %}<b>NOT</b>{% endif %} available.<br />
+        <strong>Length:</strong> {{page.length_description}}<br />
+        <strong>Level of difficulty:</strong> {{page.difficulty_description}}<br />
+        <strong>Route:</strong> <a href="{{page.ride_with_gps_link}}" target="_blank">Ride with GPS</a> {% if
+        page.komoot_link %}| <a href="{{page.komoot_link}}" target="_blank">Komoot</a>{% endif %} {% if page.gpx_link
+        %}| <a href="{{page.gpx_link}}" target="_blank">.GPX download</a>{% endif %} {% if page.tracker_link %}| <a
+          href="{{page.tracker_link}}" target="_blank">Live Tracker</a>{% endif %}<br />
+        <img src="{{site.baseurl}}/assets/images/{{page.route_image}}" />
+      </div>
+      <div class="content">{{content}}</div>
+    </section>
+    {% include footer.html %}
+  </main>
+  {% include category-modal.html%}
+</body>
+
 </html>
