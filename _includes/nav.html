@@ -2,7 +2,26 @@
   <div class="nav-container">
     <a href="{{site.baseurl}}/" class="nav-home">Wednesday Night Rides</a>
     <div class="header-nav">
-      <a href="{{site.baseurl}}/how-we-ride" class="nav-link">How We Ride</a>
+      {% assign nav_items = site.data.navigation.items | default: site.data.navigation %}
+      {% assign dropdown_title = site.data.navigation.title | default: "Info" %}
+      {% assign is_dropdown_active = false %}
+      {% for item in nav_items %}
+        {% if page.url == item.url %}
+          {% assign is_dropdown_active = true %}
+        {% endif %}
+      {% endfor %}
+
+      <div class="nav-dropdown" id="nav-dropdown">
+        <button class="nav-dropdown-btn{% if is_dropdown_active %} active{% endif %}" aria-haspopup="true" aria-expanded="false" id="nav-dropdown-trigger" type="button">
+          <span>{{ dropdown_title }}</span>
+          <i class="fa-solid fa-chevron-down nav-dropdown-icon"></i>
+        </button>
+        <div class="nav-dropdown-menu" id="nav-dropdown-menu" role="menu">
+          {% for item in nav_items %}
+          <a href="{{ item.url | relative_url }}" class="nav-dropdown-item{% if page.url == item.url %} active{% endif %}" role="menuitem">{{ item.title }}</a>
+          {% endfor %}
+        </div>
+      </div>
       <div class="header-socials">
         <a href="https://www.instagram.com/wednesdaynightrides/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://bsky.app/profile/wednightrides.org" target="_blank" aria-label="Bluesky"><i class="fa-brands fa-bluesky"></i></a>

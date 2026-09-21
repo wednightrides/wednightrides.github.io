@@ -30,4 +30,9 @@ defaults:
     values:
       layout: "post"
       permalink: /posts/:year/:month/:y_day/:title
+  - scope:
+      path: "pages"
+    values:
+      layout: "page"
+      permalink: /:basename/
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]

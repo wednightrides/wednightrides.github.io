@@ -16,12 +16,16 @@
   {% if page.layout == "post" %}
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/post.css" />
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css" />
+  {% elsif page.layout == "page" %}
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/page.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css" />
   {% else %}
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/blog.css" />
-  {%endif%}
+  {% endif %}
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/common.css" />
   <link rel="shortcut icon" href="{{site.baseurl}}/assets/icons/wnr.png">
   <script defer src="{{site.baseurl}}/assets/js/categories.js"></script>
+  <script defer src="{{site.baseurl}}/assets/js/nav.js"></script>
   <script defer src="https://kit.fontawesome.com/061c516b88.js" crossorigin="anonymous"></script>
   <script>
     (function (s, e, n, d, er) {
@@ -37,7 +41,7 @@
     })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
     sender('8f276994ac0023')
   </script>
-  {% if page.layout == "post" %}
+  {% if page.layout == "post" or page.layout == "page" %}
   <script defer src="{{site.baseurl}}/assets/js/lbox.js"></script>
   {% endif %}
 </head>

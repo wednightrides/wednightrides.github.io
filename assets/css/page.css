@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap");
+
+:root {
+  --gray-1: #3f3f3f;
+  --gray-2: #32353a;
+  --gray-3: #25282c;
+  --gray-4: #151618;
+  --gray-5: #151618;
+  --gray-6: #111111;
+  --white-1: #eeeeee;
+  --white-2: #a9abb3;
+}
+
+* {
+  font-family: inherit;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  -webkit-user-drag: none;
+  -moz-window-dragging: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+* img {
+  max-width: 100%;
+}
+
+html,
+body {
+  color: var(--white-2);
+  background-color: var(--gray-5);
+  font-family: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  line-height: 2rem;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 3rem 0 4rem 0;
+}
+
+.site-header {
+  padding: 2rem 0 3rem 0;
+}
+
+.page-article {
+  margin-bottom: 3rem;
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.page-title {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: var(--white-1);
+  line-height: 130%;
+  font-weight: 600;
+}
+
+/* Prose Content */
+.content * {
+  line-height: 180%;
+}
+
+.content p {
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  margin: 2rem 0 1rem 0;
+  color: var(--white-1);
+  line-height: 130%;
+}
+
+.content h1 { font-size: 2rem; }
+.content h2 { font-size: 1.6rem; }
+.content h3 { font-size: 1.3rem; }
+.content h4 { font-size: 1.1rem; }
+.content h5 { font-size: 1rem; }
+.content h6 { font-size: 0.9rem; }
+
+.content a {
+  color: #00d2ff;
+  border-bottom: 1px solid #00d2ff;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.content a:hover {
+  color: #5ce1e6;
+  border-color: #5ce1e6;
+}
+
+.content strong {
+  font-weight: 600;
+  color: var(--white-1);
+}
+
+.content em {
+  font-style: italic;
+}
+
+.content ul {
+  margin-left: 1.75rem;
+  margin-bottom: 1.75rem;
+  list-style-type: disc;
+}
+
+.content ol {
+  margin-left: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.content li {
+  margin-bottom: 0.6rem;
+  padding-left: 0.25rem;
+}
+
+.content ol * ol,
+.content ul * ul,
+.content ol * ul,
+.content ul * ol {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.content blockquote {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1.75rem;
+  font-style: italic;
+  border-left: 3px solid #00d2ff;
+  background: var(--gray-3);
+  border-radius: 0 8px 8px 0;
+  color: var(--white-2);
+}
+
+.content table {
+  width: 100%;
+  max-width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+}
+
+.content table th {
+  background-color: var(--gray-3);
+  color: var(--white-1);
+  border: 1px solid var(--gray-2);
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+}
+
+.content table td {
+  border: 1px solid var(--gray-2);
+  padding: 0.6rem 0.8rem;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+}
+
+.content img.emoji {
+  margin: 0 !important;
+  display: inline;
+}
+
+.content pre {
+  background: var(--gray-3) !important;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.75rem;
+  border-radius: 8px;
+  border: 1px solid var(--gray-2);
+  overflow-x: auto;
+}
+
+.content code {
+  padding: 2px 6px;
+  color: var(--white-1);
+  background-color: var(--gray-3);
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.content pre code {
+  padding: 0;
+  background: transparent;
+}
+
+footer {
+  border-top: 1px dashed var(--white-2);
+  margin-top: 4rem;
+  padding-top: 2rem;
+  font-size: 0.9rem;
+  color: var(--white-2);
+  text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    padding: 1.5rem;
+  }
+
+  main {
+    padding: 2rem 0;
+  }
+
+  .page-title {
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page-title {
+    font-size: 1.6rem;
+  }
+
+  .content ul,
+  .content ol {
+    margin-left: 1.25rem;
+  }
+}
