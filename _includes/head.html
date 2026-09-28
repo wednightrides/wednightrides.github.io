@@ -12,6 +12,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   {% seo %}
+  {% if page.image == nil and page.route_image %}
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/{{ page.route_image }}" />
+  <meta property="og:image:alt" content="Route map for {{ page.title }}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/{{ page.route_image }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  {% endif %}
   <title>{{site.title}} | {{page.title}}</title>
   {% if page.layout == "post" %}
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/post.css" />
