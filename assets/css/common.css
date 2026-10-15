@@ -258,7 +258,7 @@ hr {
   position: absolute;
   top: 100%;
   margin-top: 0.5rem;
-  right: 0;
+  left: 0;
   min-width: 170px;
   /* Use solid dark background to avoid Safari nested backdrop-filter rendering bugs */
   background-color: #191b1e;
